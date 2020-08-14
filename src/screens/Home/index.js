@@ -22,7 +22,7 @@ export default function Home() {
         </Header>
 
         <Suggestions />
-        
+
         <Activies />
       </Container>
     </Wrapper>
