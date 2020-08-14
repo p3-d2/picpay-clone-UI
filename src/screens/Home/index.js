@@ -5,6 +5,7 @@ import { Wrapper, Container, Header, BalanceContainer, BalanceTitle, Balance } f
 
 import Suggestions from '../../components/Suggestions'
 import Activies from '../../components/Activies'
+import Tips from '../../components/Tips'
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
         <Suggestions />
 
         <Activies />
+
+        <Tips />
       </Container>
     </Wrapper>
   )
