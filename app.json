@@ -4,7 +4,12 @@
     "slug": "picpay",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#14c474"
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
