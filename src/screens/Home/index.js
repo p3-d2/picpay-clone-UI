@@ -1,6 +1,5 @@
 import React from 'react'
 import { MaterialCommunityIcons, AntDesign } from '@expo/vector-icons'
-import { Text } from 'react-native'
 
 import { Wrapper, Container, Header, BalanceContainer, BalanceTitle, Balance } from './styles'
 
