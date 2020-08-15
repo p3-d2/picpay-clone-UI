@@ -16,6 +16,7 @@ export const Details = styled.View`
 
 export const Img = styled.Image`
   margin-left: 10px;
+  width: 70px;
 `
 
 export const Title = styled.Text`
@@ -28,4 +29,8 @@ export const Description = styled.Text`
   color: #fff;
   font-size: 14px;
   margin-top: 15px;
+`
+
+export const Footer = styled.Text`
+  margin-top: 20px;
 `

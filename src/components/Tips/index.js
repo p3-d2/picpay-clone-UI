@@ -18,25 +18,25 @@ const items = [
   {
     key: String(Math.random()),
     img: img9,
-    title: 'Paque suas contas sem sair de casa',
+    title: 'Recarreque seu celular',
     bgColor: '#6A0159'
   },
   {
     key: String(Math.random()),
     img: img10,
-    title: 'Paque suas contas sem sair de casa',
+    title: 'Paque um amigo à distância',
     bgColor: '#4139C8'
   },
   {
     key: String(Math.random()),
     img: img11,
-    title: 'Paque suas contas sem sair de casa',
+    title: 'Saiba como pagar nas maquininhas',
     bgColor: '#00Ab4B'
   },
   {
     key: String(Math.random()),
     img: img12,
-    title: 'Paque suas contas sem sair de casa',
+    title: 'Saiba onde pagar lojas online com PicPay',
     bgColor: '#BA2f76'
   },
 ]
