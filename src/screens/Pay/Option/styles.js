@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
+export const Container = styled.TouchableOpacity`
   height: 100px;
   flex-direction: row;
   align-items: center;
@@ -27,4 +27,4 @@ export const Description = styled.Text`
   color: #fff;
 `
 
-
+export const Button = styled.TouchableOpacity``

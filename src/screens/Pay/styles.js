@@ -5,7 +5,9 @@ export const Wrapper = styled.SafeAreaView`
   background: #000;
 `
 
-export const Container = styled.ScrollView``
+export const Container = styled.ScrollView.attrs({
+  showsVerticalScrollIndicator: false
+})``
 
 export const Header = styled.View`
   flex-direction: row;
@@ -13,6 +15,8 @@ export const Header = styled.View`
   align-items: center;
   padding: 0 16px;
 `
+
+export const Button = styled.TouchableOpacity``
 
 export const Search = styled.TextInput`
   height: 40px;

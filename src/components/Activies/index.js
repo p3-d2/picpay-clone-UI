@@ -55,11 +55,11 @@ export default function Activies() {
 
           <Actions>
             <Option>
-              <MaterialCommunityIcons name='comment-outline' color='#fff' size={14} />
+              <MaterialCommunityIcons name='comment-outline' color='#fff' size={16} />
               <OptionLabel>0</OptionLabel>
             </Option>
             <Option>
-              <AntDesign name='hearto' color='#fff' size={14} />
+              <AntDesign name='hearto' color='#fff' size={16} />
               <OptionLabel>0</OptionLabel>
             </Option>
           </Actions>

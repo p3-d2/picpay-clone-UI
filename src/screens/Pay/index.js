@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 
-import { Wrapper, Container, Header, Search, Title, Line } from './styles'
+import { Wrapper, Container, Header, Button, Search, Title, Line } from './styles'
 
 import Option from './Option'
 
@@ -106,7 +106,9 @@ export default function Pay() {
     <Wrapper>
       <Container>
         <Header>
-          <MaterialCommunityIcons name='qrcode-scan' size={30} color='#10C86E' />
+          <Button>
+            <MaterialCommunityIcons name='qrcode-scan' size={30} color='#10C86E' />
+          </Button>
           <Search
             value={Value}
             onChange={txt => SetValue(txt)}

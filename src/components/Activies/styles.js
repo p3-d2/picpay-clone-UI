@@ -82,6 +82,7 @@ export const Actions = styled.View`
 export const Option = styled.TouchableOpacity`
   margin-left: 15px;
   flex-direction: row;
+  align-items: center;
 `
 
 export const OptionLabel = styled.Text`
