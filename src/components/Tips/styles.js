@@ -7,7 +7,7 @@ export const Container = styled.ScrollView.attrs(() => ({
     paddingLeft: 16
   }
 }))`
-  margin-top: 25px;
+  margin: 25px 0;
 `
 
 export const Option = styled.TouchableOpacity`

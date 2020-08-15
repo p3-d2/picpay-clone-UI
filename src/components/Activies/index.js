@@ -3,15 +3,13 @@ import { Feather, MaterialCommunityIcons, AntDesign } from '@expo/vector-icons'
 
 import {
   Container,
-  Header,
-  Title,
   Card,
   CardHeader,
   Avatar,
   Description,
   Bold,
   CardBody,
-  UserName,
+  DescriptionDetails,
   CardFooter,
   Details,
   Value,
@@ -22,45 +20,42 @@ import {
   OptionLabel
 } from './styles'
 
-import avatar from '../../../assets/avatar.png'
-
-export default function Activies() {
+export default function Activies({ img, pag, ben, description, value, date, comments, hearts, green }) {
   return (
     <Container>
-      <Header>
-        <Title>Atividades</Title>
-      </Header>
-
       <Card>
         <CardHeader>
-          <Avatar source={avatar} />
+          <Avatar source={img} resizeMode='contain' />
           <Description>
-            <Bold>Você</Bold> pagou a <Bold>@mateussilva</Bold>
+            <Bold>{pag}</Bold> Pagou a <Bold>{ben}</Bold>
           </Description>
         </CardHeader>
 
         <CardBody>
-          <UserName>Mateus Silva</UserName>
+          <DescriptionDetails>{description}</DescriptionDetails>
         </CardBody>
 
         <CardFooter>
           <Details>
-            <Value>R$ 18,00</Value>
-
+            {green
+              ? <Value style={{ color: '#0DB060' }}>{value}</Value>
+              : <Value>{value}</Value>
+            }
+            
             <Divider />
 
             <Feather name='lock' color='#fff' size={14} />
-            <Date>há 2 anos</Date>
+            <Date>{date}</Date>
           </Details>
 
           <Actions>
             <Option>
               <MaterialCommunityIcons name='comment-outline' color='#fff' size={16} />
-              <OptionLabel>0</OptionLabel>
+              <OptionLabel>{comments}</OptionLabel>
             </Option>
             <Option>
               <AntDesign name='hearto' color='#fff' size={16} />
-              <OptionLabel>0</OptionLabel>
+              <OptionLabel>{hearts}</OptionLabel>
             </Option>
           </Actions>
         </CardFooter>

@@ -5,18 +5,9 @@ export const Container = styled.View`
   padding: 0 16px;
 `
 
-export const Header = styled.View``
-
-export const Title = styled.Text`
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-`
-
 export const Card = styled.View`
   background: #1E222B;
   border-radius: 8px;
-  margin-top: 20px;
   padding: 15px;
 `
 
@@ -25,7 +16,9 @@ export const CardHeader = styled.View`
   align-items: center;
 `
 
-export const Avatar = styled.Image``
+export const Avatar = styled.Image`
+  width: 50px;
+`
 
 export const Description = styled.Text`
   color: #fff;
@@ -41,7 +34,7 @@ export const CardBody = styled.View`
   margin-top: 20px;
 `
 
-export const UserName = styled.Text`
+export const DescriptionDetails = styled.Text`
   color: #fff;
   font-size: 20px;
 `
