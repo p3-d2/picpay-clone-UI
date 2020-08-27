@@ -78,7 +78,7 @@ export default function Navigation() {
         name='Pay' 
         component={PayScreen} 
         options={{
-          title: 'Pagar'
+          title: ''
         }}  
       />
       <Tab.Screen
